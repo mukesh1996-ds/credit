@@ -28,4 +28,6 @@ Add tracking dataset to the dvc
 ```bash
 dvc add data_given/credit.csv
 ```
+This will create a .dvc file and that file will be pushed to the rep.
+
 
