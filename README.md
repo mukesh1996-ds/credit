@@ -29,5 +29,20 @@ Add tracking dataset to the dvc
 dvc add data_given/credit.csv
 ```
 This will create a .dvc file and that file will be pushed to the rep.
+commit your project to git
+```bash
+git remote add origin https://github.com/mukesh1996-ds/credit.git
+git branch -M main
+git push origin main
+```
+Stages to create a project
+1. create a python file name get_data.py and this file will help you to get your data.
+command to execute get_data.py file is:  
+```bash
+python src\get_data.py
+```
+By this your first stage is completed.
+
+
 
 
